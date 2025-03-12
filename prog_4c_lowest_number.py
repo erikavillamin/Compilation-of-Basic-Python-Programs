@@ -8,4 +8,7 @@ while True:
     except ValueError:
         print("Invalid")
         break
-print("The lowest number is", min(numbers), end=".")
+if numbers:
+    print("The lowest number is", min(numbers), end=".")
+else:
+    print("Try again")
