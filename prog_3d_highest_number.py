@@ -13,6 +13,6 @@ while True:
 if numbers:
     print("The highest number is", max(numbers), end=".")
 else:
-    print("Enter another input.")
+    print("Try again")
 
 
