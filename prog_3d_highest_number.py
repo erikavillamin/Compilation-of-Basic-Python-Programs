@@ -8,8 +8,7 @@ while True:
     except ValueError:
         print("Invalid")
         break
-
-
+        
 if numbers:
     print("The highest number is", max(numbers), end=".")
 else:
